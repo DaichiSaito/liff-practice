@@ -18,5 +18,6 @@ module LiffRailsSample
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.hosts << "f5be750f95d6.ngrok.io"
   end
 end
